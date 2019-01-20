@@ -1,3 +1,6 @@
+[submodule "modules/lexer"]
+	path = modules/lexer
+	url = https://github.com/WattLang/lexer
 [submodule "modules/logger"]
 	path = modules/logger
 	url = https://github.com/WattLang/logger

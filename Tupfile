@@ -2,7 +2,7 @@ CC=g++
 WFLAGS=-Wall -Wextra -Wcast-align -Wcast-qual -Wctor-dtor-privacy -Wdisabled-optimization -Wformat=2 -Winit-self -Wmissing-include-dirs -Wold-style-cast -Woverloaded-virtual -Wredundant-decls -Wshadow -Wsign-conversion -Wsign-promo -Wstrict-overflow=5 -Wundef -Wno-unused
 CFLAGS=--std=c++17 -Ofast -march=native -funroll-loops -m64
 LFLAGS=
-INCLUDE=-I src/ -I modules/
+INCLUDE=-I src/ -I modules/ -I modules/lexer/src -I modules/lexer/modules
 LIBS=
 BUILD_DIR=build
 TARGET=wotpp
