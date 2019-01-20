@@ -26,3 +26,10 @@
 *.exe
 *.out
 *.app
+
+
+build/
+.tup/
+data/
+logos/*~
+logos/*.ora
